@@ -16,7 +16,7 @@ a { text-decoration: none;}
 font-weight: 700;
     font-size: 18px;
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;}
@@ -44,7 +44,7 @@ font-weight: 700;
 .address:focus {
     color: #404bbf;;
 }
-.header-page{ background-color: #2e2f42;
+.section-header-page { background-color: #2e2f42;
     width: 1440px;
         height: 600px;
 }
@@ -54,20 +54,22 @@ h1 {
     font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    border-radius: 4px;
+    color: #ffffff;
+    background-color: #4D5AE5;
+        border-radius: 4px;
         padding-block: 16px;
         padding-inline: 32px;
         width: 169px;
@@ -75,23 +77,17 @@ button {
 
 }
 button{ cursor: pointer;
+
 }
 
-/*:root 
-        --iris: #4d5ae5;
-        --ocean: #404bbf;
-        --navy-blue: #2e2f42;
-        --green: #31d0aa;
-        --slate: #434455;
-        --light-slate: #8e8f99;
-        --cornflower: #e7e9fc;
-        --cloud: #f4f4fd;
-        --navy-blue-modal: rgba(46, 47, 66, 0.4);
-        --grey: rgba(46, 47, 66, 0.7);
-        --white: #fff;
-        --dairy: #fcfcfc; */
+button:hover,
+button:focus       {
+    background-color: #404BBF
+}
 
-        .description {
+
+
+        .section-advantages {
             font-weight: 400;
                 font-size: 16px;
             
@@ -109,7 +105,7 @@ button{ cursor: pointer;
         letter-spacing: 0.02em;
         color: #2e2f42;    }
 
-      .back-team {
+      .section-back-team {
         background-color: #f4f4fd;;
         width: 1440px;
         height: 732px;}
@@ -118,7 +114,7 @@ button{ cursor: pointer;
             font-weight: 700;
                 font-size: 36px;
                /* line-height: 40px; */
-                line-height: 1.11111;
+                line-height: 1.1;
                 letter-spacing: 0.02em;
                 text-align: center;
                 color: #2e2f42;
@@ -142,11 +138,11 @@ button{ cursor: pointer;
                 text-align: center;
                 color: #434455;
         }
-       .section-portfolio {
+       .section-portfolio-start {
         font-weight: 700;
             font-size: 36px;
             /* line-height: 40px; */
-            line-height: 1.11111;
+            line-height: 1.1;
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
@@ -178,7 +174,7 @@ button{ cursor: pointer;
         font-weight: 700;
             font-size: 18px;
             /* line-height: 21px; */
-            line-height: 1.16667;
+            line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #f4f4fd;
@@ -186,6 +182,10 @@ button{ cursor: pointer;
 
         .logo-footer-color {
             color: #4d5ae5;
+            
+        }
+        .footer-color-two{
+            color: #f4f4fd
         }
       .text-footer {
         font-weight: 400;
