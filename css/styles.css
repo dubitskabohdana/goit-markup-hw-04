@@ -55,7 +55,7 @@ main {
     justify-content: space-between;
     padding: 24px 0;
     align-items:baseline;
-    
+    padding: 24px 0 24px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -75,8 +75,8 @@ font-weight: 700;
      display: flex;
     margin-right: 76px;
     justify-content: center;
-padding-top: 24px;
- padding-bottom: 24px;
+/*padding-top: 24px;
+ padding-bottom: 24px;*/
     }
 
     .logo-color{
@@ -95,8 +95,8 @@ gap: 40px;
 margin-right: 332px;
 flex-grow: 1;
 align-items: center;
-padding-top: 24px;
- padding-bottom: 24px;
+/*padding-top: 24px;
+ padding-bottom: 24px;*/
 
 
       }
@@ -291,11 +291,8 @@ button:focus       {
         padding-top: 120px;
         padding-bottom: 120px;
       }
-      .list-portfolio-items {
-        row-gap: 48px;
-
-      }
-      .container .portfolio {
+     
+      .list-portfolio-items{
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
@@ -310,14 +307,23 @@ button:focus       {
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
-            padding-top: 120px;
-            margin-bottom: 72px; margin-bottom: 8px;
+            
+            margin-bottom: 72px; 
        }
+           .portfolio-item-container {
+               padding: 32px 16px;
+               border: 1px solid #e7e9fc;
+               border-top: none; }
+
+            
            .list-portfolio{
             display: flex;
             flex-wrap: wrap;
             gap: 24px;
             margin-bottom: 120px;
+            row-gap: 48px;
+            list-style: none;
+             padding: 0;
            }
            
            .list-portfolio-one {
@@ -327,7 +333,7 @@ button:focus       {
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;
-            padding-top: 32px;
+            margin-bottom: 8px;
            
 
            
@@ -350,7 +356,7 @@ button:focus       {
             padding-bottom: 100px;
         }
         
-        .item-location {display:inline-block;
+        .item-location {display: flex;
             flex-direction: column;
            justify-content: flex-start;
             
@@ -364,9 +370,8 @@ button:focus       {
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color:#4d5ae5 ;
-            
-            padding-top: 100px;
             margin-bottom: 16px;
+            display: inline-block;
     }
      .logo-color-footer{ color:#f4f4fd ;}
        
@@ -379,5 +384,5 @@ button:focus       {
             color: #f4f4fd;
           height: 72px;
          width: 264px;
-         margin-bottom: 100px;
+         margin:0;
       }
