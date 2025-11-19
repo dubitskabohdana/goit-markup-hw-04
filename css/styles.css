@@ -372,7 +372,7 @@ button:focus       {
         }
         
         .item-location {
-            display:inline-block;
+            display:flex;
             flex-direction: column;
            justify-content: flex-start;
             
@@ -384,10 +384,14 @@ button:focus       {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
-        margin-bottom: 16px;
+        text-transform: uppercase;text-decoration: none;
+        /*display: inline-block;
+        
+        margin-bottom: 16px;*/
             
+    }.logo-color-footer {
+        display: inline-block;
+        margin-bottom: 16px;
     }
        /* .logo-footer {
             display: inline-block;
