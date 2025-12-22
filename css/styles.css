@@ -201,24 +201,21 @@ font-weight: 700;
     letter-spacing: 0.04em;
      color: #ffffff;
     background-color: #4D5AE5;
-    width: 169px;
-    height: 56px;
+    min-width: 169px;
+    padding: 16px 32px;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
-    padding: 0 15px;
+   
     text-align: center;
     cursor: pointer;
     min-width: 169px;
     border: none;
-    
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
         
 }
 
-.header-page-button {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-}
 
 .header-page-button:hover,
 .header-page-button:focus {
@@ -290,10 +287,14 @@ display: flex;
         margin-bottom: 8px;
         
  }
+ .container-team {
+     padding: 32px 16px;
+     text-align: center;
+ }
 
       .section-back-team {
         background-color: #f4f4fd;
-        height: 780px;
+        
         min-width: 100%;
         padding: 120px 0;
         }
@@ -335,7 +336,7 @@ display: flex;
                     text-align: center;
                     color: #2e2f42; 
                     margin-bottom: 8px;
-                    margin-top: 32px;
+                    
                    
             }
                     
@@ -353,7 +354,6 @@ display: flex;
   .svg-contact-all {
       display: flex;
       justify-content: center;
-      padding-bottom: 32px;
       gap: 24px;
     
 
